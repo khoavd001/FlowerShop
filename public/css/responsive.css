@@ -1,0 +1,368 @@
+
+/* PC */
+
+@media (max-width: 120em) and (min-width: 46.1875em) {
+
+}
+
+@media (max-width: 87.1875em) and (min-width: 72.25em )
+{
+    .flower-list-paragraph.tinhtrang {
+        display: inline-grid;
+    }
+}
+
+@media (min-width: 64.0625em) and (max-width: 107.6875em){
+    .container__flower-list-flower-include{
+        margin-left: 68px;
+    }
+    .col-4.header__user {
+        flex: 4;
+    }
+
+    .header__account{
+        margin: 0;
+    }
+
+    .header__button:nth-child(1){
+        margin-bottom: 6px;
+    }
+
+    .grid{ 
+        width: 93%;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 64em) {
+
+    /* BASE */
+    .grid {
+        width: 90%;
+        margin: 30% auto 0;
+    }
+    .grid__row{
+        display: block;
+    }
+    .grid__column-10{
+        margin:auto 0;
+        width: 100%;
+    }
+
+    .grid__column-2{
+        display: none;
+    }
+
+    .prev,
+    .hoa-tuoi-prev,
+    .hoa-giang-sinh-prev,
+    .hoa-tri-an-prev,
+    .hoa-friend-prev{
+        bottom: 35%;
+    }
+
+    .next,
+    .hoa-tuoi-next,
+    .hoa-giang-sinh-next,
+    .hoa-tri-an-next,
+    .hoa-friend-next{
+        bottom: 35%;
+        right: -2%;
+    }
+
+    /* HEADER */
+
+    #header{
+        display: flex;
+        align-items: center;
+    }
+    .header__grid {
+        width: 100%;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .col-3.header__logo {
+        flex: 2;
+    }
+
+    .row{
+        justify-content: flex-start;
+    }
+
+    .col-4.header__user{
+        flex: 4;
+    }
+
+    .header__slogan {
+        display: none;
+    }
+
+    .header__account {
+        margin-top: 0;
+    }
+
+    .header__button:nth-child(1){
+        margin-bottom: 10px;
+    }
+
+
+    /* CONTAINER */
+
+    .container__flower-list{
+        margin: 60px 20px;
+    }
+
+    .container__flower-list-tittle,
+    .container__flower-list-banner{
+        text-align: center;
+    }
+
+    .flower-list-banner-img{
+        width: 100%;
+    }
+
+    .container__flower-list-content-wrapper{
+        margin-top: 16px;
+    }
+    .container__flower-list-wrapper.is-block{
+        display: block;
+
+    }
+
+    .container__flower-list-content{
+        display: block;
+    }
+
+    p.flower-list-paragraph.tinhtrang{
+        display: inline-block;
+    }
+
+    .flower-list-paragraph.tenbohoa{
+        font-size: 31px;
+    }
+    .container__flower-list-flower-include{
+        margin-top: 16px;
+    }
+
+    /* FOOTER */
+    .footer {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer__column-3 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer__logo{
+        justify-content: center;
+    }
+
+    .footer__title{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+    /* BASE */
+    .grid {
+        width: 100%;
+        margin: 135px auto 0;
+    }
+    .grid::before {
+        content: '';
+        position: absolute;
+        border: 15px solid #F0FCEB;
+        height: 30px;
+        top: -25px;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .grid::after {
+        content: '';
+        position: absolute;
+        border: 17px solid #F0FCEB;
+        height: 30px;
+        bottom: -33px;
+        width: 100%;
+    }
+    .grid__row{
+        display: block;
+    }
+    .grid__column-10{
+        margin:auto 0;
+        width: 100%;
+    }
+
+    .grid__column-2{
+        display: none;
+    }
+
+    .prev,
+    .hoa-tuoi-prev,
+    .hoa-giang-sinh-prev,
+    .hoa-tri-an-prev,
+    .hoa-friend-prev{
+        bottom: calc(100% - 178px);
+    }
+
+    .next,
+    .hoa-tuoi-next,
+    .hoa-giang-sinh-next,
+    .hoa-tri-an-next,
+    .hoa-friend-next{
+        bottom: calc(100% - 178px);
+    }
+
+    /* HEADER */
+
+    #header{
+        display: flex;
+        align-items: center;
+    }
+    .header__grid {
+        width: 100%;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .header__slogan {
+        display: none;
+    }
+    .header__search{
+        display: none;
+    }
+    .header__account {
+        margin-top: 0;
+    }
+
+    .row{
+        align-items: center;
+    }
+
+    .col-4.header__user,
+    .header__button{
+        display: none;
+    }
+
+    .col-2.header__menu{
+        display: block;
+        text-align: center;
+        margin-right: 12px;
+    }
+
+    .header__main-menu{
+        position: absolute;
+        width: 50%;
+        right: 0;
+        top: 100px;
+        height: 100vh;
+        z-index: 1;
+        border: 1px solid #ddd;
+        border-radius: 7px;
+        background-color: #fff;
+        box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+        transform: translateX(100%);
+        transition: all 0.3s ease;
+    }
+
+    .header__main-menu.active {
+        transform: translateX(0);
+    }
+
+    .main-menu-button {
+        font-size: 22px;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        right: 0;
+        text-decoration: none;
+        color: inherit;
+        
+    }
+
+    .main-menu-button:hover  {
+        color: #F78D09;
+    }
+
+    /* CONTAINER */
+
+    .container__flower-list{
+        margin: 60px 20px;
+    }
+
+    .container__flower-list-tittle,
+    .container__flower-list-banner{
+        text-align: center;
+    }
+
+    .flower-list-banner-img{
+        width: 75%;
+    }
+/* 
+    .flower-list-slider-img{
+        width: 75%;
+    }
+     */
+    .container__flower-list-content-wrapper{
+        margin-top: 16px;
+    }
+    .container__flower-list-wrapper.is-block{
+        display: block;
+
+    }
+
+    .container__flower-list-content{
+        display: block;
+    }
+
+    p.flower-list-paragraph.tinhtrang{
+        display: inline-block;
+    }
+
+    .flower-list-paragraph.tenbohoa{
+        font-size: 31px;
+    }
+    .container__flower-list-flower-include{
+        margin-top: 16px;
+    }
+
+    /* FOOTER */
+    .footer {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer__contact-social-network-wrapper{
+        width: 25%;
+    }
+    .footer__column-3 {
+        width: 100%;
+    }
+
+    .footer__logo{
+        justify-content: center;
+    }
+
+    .footer__title{
+        margin-bottom: 20px;
+    }
+
+    .web-map {
+        width: 100%;
+    }
+}

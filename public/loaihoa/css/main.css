@@ -1,0 +1,255 @@
+.grid
+{
+    max-width: 100%;
+    margin: 130px;
+}
+
+/* FLOWER LIST */
+
+.container__flower-list {
+    margin: 60px 0 0 35px;
+}
+
+.container__flower-list-banner{
+    text-align: center;
+}
+
+.flower-list-banner-img {
+    width:65%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+}
+
+.flower-list-paragraph.tenbohoa{
+    font-size: 35px;
+    margin-top: 0;
+    color: #F78D09;
+    line-height: 35px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.flower-list-paragraph.tinhtrang,
+.flower-list-paragraph.gia,
+.diptang-title,
+.hoachinh-title,
+.ynghia-title
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.flower-list-paragraph.hoachinh{
+    flex: 1;
+    text-align: justify;
+}
+
+.flower-list-paragraph.ynghia{
+    flex: 2;
+    text-align: justify;
+}
+
+.flower-list-cost{
+    font-size: 25px;
+    font-weight: 700;
+    color: #0F5B9A;
+}
+.buy-btn{
+    margin-top: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: rgb(232,227,227);
+    background: linear-gradient(180deg, rgba(232,227,227,1) 0%, rgba(44,255,0,1) 76%);
+}
+
+.buy-btn:hover{
+    background: rgb(232,227,227);
+    background: linear-gradient(0deg, rgba(232,227,227,1) 0%, rgba(44,255,0,1) 45%);
+}
+.container__flower-list-wrapper.is-block {
+    display: flex;
+}
+
+.container__flower-list-wrapper {
+    display: none;
+}
+
+.container__flower-list-tittle{
+    font-family: 'Comfortaa', cursive;
+}
+
+.container__flower-list-content-wrapper{
+    flex: 2;
+    margin-left: -50px;
+}
+
+.container__flower-list-description{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.buy-btn{
+    width: fit-content;
+    font-weight: 700;
+}
+.buy-btn.is-disabled {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+    background: rgb(232,227,227);
+    background: linear-gradient(180deg, rgba(232,227,227,1) 0%, rgba(44,255,0,1) 76%);
+
+}
+.container__flower-list-flower-include{
+    flex: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container__flower-list-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: none;
+}
+p {
+    margin-bottom: 0;
+}
+.container__flower-list-slick-slider {
+    margin: 20px 0 0 40px;
+}
+
+.slide-item {
+        text-align: center;
+}
+
+/* .slick-slide div:first-child{
+    margin-left: 0;
+}
+
+.slick-slide div:last-child{
+    margin-right: 0;
+} */
+
+.slick-slide div {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.flower-list-slider-img {
+    margin: 10px auto;
+    width:50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* box-shadow: 5px 3px 30px 8px hsl(0deg 0% 78% / 36%); */
+}
+
+.flower-list-slider-img:hover {
+    cursor: pointer;
+}
+
+.slick-slider-wrapper {
+    position: relative;
+}
+
+
+
+/* ARROW BUTTON */
+.prev-LH,
+.prev-HHGH,
+.hophoa-prev,
+.chucmung-prev,
+.HH-BH-prev,
+.giohoa-prev,
+.HL-prev,
+.DT-prev
+{
+    position: absolute;
+    left: 0%;
+    bottom: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    box-shadow: 0 0 7px -4px #000;
+    border-radius: 50%;
+    font-size: 1.8rem;
+}
+
+.next-LH,
+.next-HHGH,
+.hophoa-next,
+.chucmung-next,
+.HH-BH-next,
+.giohoa-next,
+.HL-next,
+.DT-next
+{
+    position: absolute;
+    right: -3%;
+    bottom: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    box-shadow: 0 0 7px -4px #000;
+    border-radius: 50%;
+    font-size: 1.8rem;
+}
+
+.prev-LH.slick-arrow.slick-disabled,
+.next-LH.slick-arrow.slick-disabled,
+.prev-HHGH.slick-arrow.slick-disabled,
+.hophoa-prev.slick-arrow.slick-disabled,
+.hophoa-next.slick-arrow.slick-disabled,
+.next-HHGH.slick-arrow.slick-disabled,
+.chucmung-next.slick-arrow.slick-disabled,
+.chucmung-prev.slick-arrow.slick-disabled,
+.HH-BH-next.slick-arrow.slick-disabled,
+.HH-BH-prev.slick-arrow.slick-disabled,
+.giohoa-next.slick-arrow.slick-disabled,
+.giohoa-next.slick-arrow.slick-disabled,
+.HL-prev.slick-arrow.slick-disabled,
+.HL-next.slick-arrow.slick-disabled,
+.DT-next.slick-arrow.slick-disabled,
+.DT-prev.slick-arrow.slick-disabled
+ {
+    opacity: 0.7;
+    color: #000;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.prev-LH:hover,
+.next-LH:hover,
+.next-HHGH:hover,
+.prev-HHGH:hover,
+.hophoa-prev:hover,
+.hophoa-next:hover,
+.chucmung-next:hover,
+.chucmung-prev:hover,
+.HH-BH-prev:hover,
+.HH-BH-next:hover,
+.giohoa-next:hover,
+.giohoa-prev:hover,
+.HL-next:hover,
+.HL-prev:hover,
+.DT-next:hover,
+.DT-prev:hover
+  {
+    cursor: pointer;
+    box-shadow: 0 0 4px 0 #2cff00;
+    color: #2cff00;
+}
+

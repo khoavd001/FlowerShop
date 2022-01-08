@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa:wght@700&family=Commissioner:wght@500&display=swap');
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.grid
+{
+    position: relative;
+    width: 84%;
+    max-width: 100%;
+    margin: 25px auto 0;
+    background-color: #F0FCEB;
+}
+.grid::before {
+    content: '';
+    position: absolute;
+    border: 15px solid #F0FCEB;
+    height: 30px;
+    top: -25px;
+    width: 100%;
+    z-index: -1;
+}
+
+.grid::after {
+    content: '';
+    position: absolute;
+    border: 15px solid #F0FCEB;
+    height: 30px;
+    bottom: -30px;
+    width: 100%;
+}
+
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.667%;
+    margin-left: 11px;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.333%;
+}
+
+.prev,
+.hoa-tuoi-prev,
+.hoa-giang-sinh-prev,
+.hoa-tri-an-prev,
+.hoa-friend-prev
+{
+    position: absolute;
+    left: 0.5%;
+    bottom: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    box-shadow: 0 0 7px -4px #000;
+    border-radius: 50%;
+    font-size: 1.8rem;
+}
+
+.next,
+.hoa-tuoi-next,
+.hoa-giang-sinh-next,
+.hoa-tri-an-next,
+.hoa-friend-next {
+    position: absolute;
+    right: -1%;
+    bottom: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    box-shadow: 0 0 7px -4px #000;
+    border-radius: 50%;
+    font-size: 1.8rem;
+}
+
+.prev.slick-arrow.slick-disabled,
+.next.slick-arrow.slick-disabled,
+.hoa-tuoi-prev.slick-arrow.slick-disabled,
+.hoa-tuoi-next.slick-arrow.slick-disabled,
+.hoa-giang-sinh-prev.slick-arrow.slick-disabled,
+.hoa-giang-sinh-next.slick-arrow.slick-disabled,
+.hoa-tri-an-prev.slick-arrow.slick-disabled,
+.hoa-tri-an-next.slick-arrow.slick-disabled,
+.hoa-friend-prev.slick-arrow.slick-disabled,
+.hoa-friend-next.slick-arrow.slick-disabled {
+    opacity: 0.7;
+    color: #000;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.prev:hover,
+.next:hover,
+.hoa-tuoi-prev:hover,
+.hoa-tuoi-next:hover,
+.hoa-giang-sinh-prev:hover,
+.hoa-giang-sinh-next:hover,
+.hoa-tri-an-prev:hover,
+.hoa-tri-an-next:hover,
+.hoa-friend-prev:hover,
+.hoa-friend-next:hover
+  {
+    cursor: pointer;
+    box-shadow: 0 0 4px 0 #2cff00;
+    color: #2cff00;
+}
+
+
+@keyframes coc-coc-alo-circle-anim{
+    0% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+    50%{
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.2;
+    }
+    100% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+}
+
+@keyframes coc-coc-alo-phone-anim{
+    0% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}

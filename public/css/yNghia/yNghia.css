@@ -1,0 +1,21 @@
+.text-here
+{
+	margin-left: 25px;
+	padding: 15px;
+}
+p
+{
+	padding: 10px;
+	text-indent: 20px;
+	text-align: justify;
+	font-size: 17px;
+}
+ h5,h6
+{
+	padding: 20px;
+}
+h3
+{
+	padding: 30px;
+}
+	

@@ -1,0 +1,10 @@
+KM01: Chúc may mắn; thành phần: Hoa hồng trắng Shizuku Rose, Hoa hồng đỏ Monalisa Rose, Hoa hồng Miyakox, Hoa Cúc Anh ;Giá: 250000 
+KM02: Chúc mừng; thành phần: Hoa hồng đỏ Red Eden Rose, Các Tường, Hoa Ly Hồng, Cẩm tú cầu xanh; Giá: 199000
+KM03: Ngày nắng; thành phần:Hoa hồng vàng Golden Celebration rose, Cúc chi vàng, Hoa Baby, Lan Vũ Nữ; Giá: 189000
+KM04: Bầu trời; Thành phần: Hoa hồng xanh, Hoa Baby; Giá: 222000
+KM05: Vươn lên; thành phần: Lan Vanda đỏ, Hoa hướng dương, Hoa cẩm chướng; Giá:170000
+KM06: Hồ điệp trắng; thành phần: Lan hồ điệp ; Giá: 150k
+KM07: Hồ điệp tím; Thành phần: Lan hồ điệp tím; Giá 150k
+KM08: Bạch Liên: Thành phần: Hoa sen trắng; Giá 150k
+KM09: Nắng mai: Thành phần: Hoa hướng dương; Giá 120k
+KM10: Các Tana : thành phần: Hoa cúc tana ; Giá:135k

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{
+	
+	margin-top: 0px;
+	background-image:url("../img/header.jpg");
+	background-attachment: fixed;
+	background-origin: inherit;
+	height: 100px;
+	width: 100%;
+	/*position: fixed;*/
+	top: 0;
+	z-index: 1;
+	transition: top 0.3s;
+	background-color: linear-gradient(90deg,#1fb870,#e7c08d,#acda64);
+}
+
+
+.header__grid{
+    width: 84%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 105px;
+	float: left;
+	align-content: center;
+	padding: 5px;
+}
+#slogan{
+	color: rgba(22,208,0,1.00);
+	text-align: center;
+	text-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+}
+
+.col-4 {
+	display: flex;
+	align-items: center;
+}
+
+.col-3.header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.col-4.header__user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-2.header__menu{
+	display: none;
+}
+
+.header__menu-button{
+	font-size: 33px;
+}
+.header__search {
+	display: flex;
+	align-items: center;
+    padding: 10px;
+    background-color: #fff;
+	border-radius: 10px;
+	flex-grow: 5;
+	margin-right: 40px;
+	box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+
+}
+
+.header__search-input{
+	outline: none;
+	margin-left: 4px;
+}
+.header__account {
+	text-align: center;
+	flex-grow: 7;
+    margin-top: 45px;
+}
+.header__button {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	width: 92px;
+	box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+}
+
+.header__button:hover{
+	color: #fff;
+	background-color: #F78D09;
+}
