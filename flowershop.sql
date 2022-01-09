@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 08, 2022 at 06:56 AM
+-- Generation Time: Jan 09, 2022 at 04:22 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.3.33
 
@@ -66,7 +66,12 @@ INSERT INTO `carts` (`id`, `customer_id`, `product_id`, `pty`, `price`, `created
 (23, 16, 33, 1, 1790000, NULL, NULL),
 (24, 16, 42, 1, 100000, NULL, NULL),
 (25, 17, 2, 5, 100000, NULL, NULL),
-(27, 19, 14, 3, 2900000, '2021-12-31 17:00:00', NULL);
+(27, 19, 14, 3, 2900000, '2021-12-31 17:00:00', NULL),
+(28, 20, 2, 2, 100000, '2022-01-09 02:26:34', NULL),
+(29, 21, 42, 2, 100000, '2022-01-09 02:39:37', NULL),
+(30, 22, 15, 3, 190000, '2022-01-09 02:41:45', NULL),
+(31, 23, 35, 1, 1050000, '2022-01-09 02:42:52', NULL),
+(32, 24, 36, 1, 900000, '2022-01-09 02:44:06', NULL);
 
 -- --------------------------------------------------------
 
@@ -106,7 +111,12 @@ INSERT INTO `customers` (`id`, `name`, `phone`, `address`, `email`, `content`, `
 (15, 'Nguyen Tuan Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', 'giao 9-12h', 1, '2021-12-30 19:41:31', '2021-12-30 19:41:31'),
 (16, 'Nguyen Tuan Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', 'giao buổi tối', 1, '2021-12-30 19:51:06', '2021-12-30 19:51:06'),
 (17, 'Nguyen Tuan Kha', '0909789879', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', NULL, 1, '2021-12-30 20:49:19', '2021-12-30 20:49:19'),
-(19, 'Nguyen Tuan Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', NULL, 1, '2021-12-31 21:54:58', '2021-12-31 21:54:58');
+(19, 'Nguyen Tuan Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', NULL, 1, '2021-12-31 21:54:58', '2021-12-31 21:54:58'),
+(20, 'Nguyễn Tuấn Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', NULL, 1, '2022-01-08 19:26:34', '2022-01-08 19:26:34'),
+(21, 'Nguyễn Tuấn Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', NULL, 1, '2022-01-08 19:39:37', '2022-01-08 19:39:37'),
+(22, 'Nguyen Tuan Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', NULL, 1, '2022-01-08 19:41:45', '2022-01-08 19:41:45'),
+(23, 'Nguyen Tuan Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', NULL, 1, '2022-01-08 19:42:52', '2022-01-08 19:42:52'),
+(24, 'Nguyen Tuan Kha', '0909789789', 'An Thới / An Hòa / Trảng Bàng / Tây Ninh', '18520873@gm.uit.edu.vn', NULL, 1, '2022-01-08 19:44:06', '2022-01-08 19:44:06');
 
 -- --------------------------------------------------------
 
@@ -153,13 +163,6 @@ CREATE TABLE `jobs` (
   `available_at` int(10) UNSIGNED NOT NULL,
   `created_at` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `jobs`
---
-
-INSERT INTO `jobs` (`id`, `queue`, `payload`, `attempts`, `reserved_at`, `available_at`, `created_at`) VALUES
-(14, 'default', '{\"uuid\":\"86ef0ac5-172b-4864-b90a-b0eae2f39757\",\"displayName\":\"App\\\\Jobs\\\\SendMail\",\"job\":\"Illuminate\\\\Queue\\\\CallQueuedHandler@call\",\"maxTries\":null,\"maxExceptions\":null,\"failOnTimeout\":false,\"backoff\":null,\"timeout\":null,\"retryUntil\":null,\"data\":{\"commandName\":\"App\\\\Jobs\\\\SendMail\",\"command\":\"O:17:\\\"App\\\\Jobs\\\\SendMail\\\":11:{s:8:\\\"\\u0000*\\u0000email\\\";s:22:\\\"18520873@gm.uit.edu.vn\\\";s:3:\\\"job\\\";N;s:10:\\\"connection\\\";N;s:5:\\\"queue\\\";N;s:15:\\\"chainConnection\\\";N;s:10:\\\"chainQueue\\\";N;s:19:\\\"chainCatchCallbacks\\\";N;s:5:\\\"delay\\\";O:25:\\\"Illuminate\\\\Support\\\\Carbon\\\":3:{s:4:\\\"date\\\";s:26:\\\"2022-01-01 04:55:00.847386\\\";s:13:\\\"timezone_type\\\";i:3;s:8:\\\"timezone\\\";s:3:\\\"UTC\\\";}s:11:\\\"afterCommit\\\";N;s:10:\\\"middleware\\\";a:0:{}s:7:\\\"chained\\\";a:0:{}}\"}}', 0, NULL, 1641012900, 1641012899);
 
 -- --------------------------------------------------------
 
@@ -514,7 +517,8 @@ INSERT INTO `users` (`id`, `level`, `name`, `email`, `email_verified_at`, `passw
 (2, 1, 'Nguyễn văn A', 'nva@gmail.com', NULL, '$2y$10$h1jhhIuuEBaANJBAsQ0cUOZASd5PZRHYCYgoReoI5K4DRBs6MvqxS', NULL, 'UIT', '0909789789', '2021-12-26 18:33:55', '2021-12-26 18:33:55'),
 (3, 0, 'Nguyễn Văn B', 'nvb@gmail.com', NULL, '$2y$10$Hum5ba/gx1diZfc8dLvhKegro5KPpejvu3YO1Gsju6UBh1E3hO/J2', NULL, 'uit', '0909789987', '2021-12-26 18:39:44', '2021-12-26 18:39:44'),
 (4, 1, 'Nguyen van c', 'nvc@gmail.com', NULL, '$2y$10$j6p34DKrQqxce3ldG2G3neMlm/zFmlT6Xks8tC5R4CciFldeamhH6', NULL, 'uit', '0909789789', '2021-12-30 20:27:50', '2021-12-30 20:27:50'),
-(5, 1, 'Nguyễn Ngọc Huy', '18520843@gm.uit.edu.vn', NULL, '$2y$10$yLZFKzb.i/s1/zvK/UUgi.1WdgQT54LPKZMVq6notUELuPlyU5uQi', NULL, 'uit', '0909789987', '2021-12-31 03:43:45', '2021-12-31 03:43:45');
+(5, 0, 'Nguyễn Ngọc Huy', '18520843@gm.uit.edu.vn', NULL, '$2y$10$yLZFKzb.i/s1/zvK/UUgi.1WdgQT54LPKZMVq6notUELuPlyU5uQi', NULL, 'uit', '0909789987', '2021-12-31 03:43:45', '2021-12-31 03:43:45'),
+(7, 0, 'Khoa', '19521705@gm.uit.edu.vn', NULL, '$2y$10$a0SnBZ/W0C9B64f2q/WxceswlpF35oQndCO.Ughci7v1A4N981rs2', NULL, 'uit', '0909789789', '2022-01-08 07:27:48', '2022-01-08 07:27:48');
 
 --
 -- Indexes for dumped tables
@@ -600,13 +604,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `carts`
 --
 ALTER TABLE `carts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
@@ -618,7 +622,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `jobs`
 --
 ALTER TABLE `jobs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `loaihoas`
@@ -654,7 +658,7 @@ ALTER TABLE `tuvans`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Constraints for dumped tables
