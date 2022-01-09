@@ -70,7 +70,7 @@ class PhanLoaiController extends Controller
 
     public function Mua(phanloai $bohoa)
     {
-        return view('page.MuaHang', [
+        return view('page.loaihoa.MuaHang', [
             'title' => 'Mua: ' . $bohoa->TenBoHoa,
             'bohoa' => $bohoa,
         ]);
