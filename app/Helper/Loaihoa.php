@@ -10,7 +10,7 @@ class Loaihoa
         foreach ($BoHoa as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -25,7 +25,7 @@ class Loaihoa
         foreach ($GioHoa as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -40,7 +40,7 @@ class Loaihoa
         foreach ($HopHoa as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -55,7 +55,7 @@ class Loaihoa
         foreach ($ChucMung as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -70,7 +70,7 @@ class Loaihoa
         foreach ($BHDongTien as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -85,7 +85,7 @@ class Loaihoa
         foreach ($GHDongTien as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -100,7 +100,7 @@ class Loaihoa
         foreach ($LHDongTien as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                              <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -115,7 +115,7 @@ class Loaihoa
         foreach ($CMDongTien as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                              <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -130,7 +130,7 @@ class Loaihoa
         foreach ($GHLan as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                              <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -145,7 +145,7 @@ class Loaihoa
         foreach ($HoDiep as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -160,7 +160,7 @@ class Loaihoa
         foreach ($DotBien as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                              <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -175,7 +175,7 @@ class Loaihoa
         foreach ($LanRung as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -190,7 +190,7 @@ class Loaihoa
         foreach ($BHHuongDuong as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="cemter">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                              <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -205,7 +205,7 @@ class Loaihoa
         foreach ($GHHuongDuong as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                              <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -220,7 +220,7 @@ class Loaihoa
         foreach ($HHHuongDuong as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                              <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
@@ -235,7 +235,7 @@ class Loaihoa
         foreach ($CMHuongDuong as $key => $bohoa){
             $html .= '
                         <div class="slide-item" align="center">
-                            <a href="../MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
+                            <a href="../loaihoa/MuaHang/'.$bohoa->id.'"><img src="../'.$bohoa->link.'" alt= "'.$bohoa->TenBoHoa.'" class="flower-list-slider-img bohoa"></a>
                             <div style="width: 90%" class="mt-2"><p class="flower-list-paragraph tenbohoa"><b>'.$bohoa->TenBoHoa.'</b></p></div>
                             <p class="flower-list-paragraph gia">Giá:<span class="flower-list-cost"> '.$bohoa->Gia.'đ</span></p>
                         </div>
