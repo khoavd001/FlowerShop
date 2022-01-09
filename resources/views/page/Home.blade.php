@@ -43,11 +43,11 @@
 
     <div class="container__flower-list">
         <h1 class="container__flower-list-tittle">HOA GIÁNG SINH</h1>
-        {!! \App\Helper\Home::divHT1($BohoaGS) !!}
-        {!! \App\Helper\Home::divHT2($ListhoaGS) !!}
+        {!! \App\Helper\Home::divGS1($BohoaGS) !!}
+        {!! \App\Helper\Home::divGS2($ListhoaGS) !!}
         <div class="slick-slider-wrapper">
             <div class="container__flower-list-slick-slider hoagiangsinh">
-                {!! \App\Helper\Home::divHT3($SlidehoaGS) !!}
+                {!! \App\Helper\Home::divGS3($SlidehoaGS) !!}
             </div>
             <div class="flower-list--slick-slider-paginator-arrow">
                 <ul>
