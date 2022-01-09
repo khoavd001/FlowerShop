@@ -28,7 +28,7 @@
         margin-bottom: 6px;
     }
 
-    .grid{ 
+    .grid{
         width: 93%;
     }
 }
@@ -291,7 +291,7 @@
         right: 0;
         text-decoration: none;
         color: inherit;
-        
+
     }
 
     .main-menu-button:hover  {
@@ -312,7 +312,7 @@
     .flower-list-banner-img{
         width: 75%;
     }
-/* 
+/*
     .flower-list-slider-img{
         width: 75%;
     }
@@ -350,7 +350,7 @@
     .footer__contact-social-network-wrapper{
         width: 25%;
     }
-    .footer__column-3 {
+    .footer__column-4 {
         width: 100%;
     }
 
