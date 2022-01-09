@@ -3,14 +3,14 @@
 	margin-left: 25px;
 	padding: 15px;
 }
-p
+.p
 {
 	padding: 10px;
 	text-indent: 20px;
 	text-align: justify;
 	font-size: 17px;
 }
- h5,h6
+ .h5
 {
 	padding: 20px;
 }
